@@ -28,6 +28,12 @@
             <!--这里如果在源码包里有使用@Test注解需要注释掉test的scope-->
             <!--<scope>test</scope>-->
         </dependency>
+
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>2.9.0</version>
+        </dependency>
     </dependencies>
 
     <build>
